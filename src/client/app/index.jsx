@@ -3,7 +3,7 @@ import React from 'react';
 import {render} from 'react-dom';
 
 import AwesomeComponent from './AwesomeComponent.jsx';
-
+import SocialBoostContainer from './SocialBoostContainer.jsx';
 injectTapeventPlugin();
 class App extends React.Component {
   render () {
@@ -11,6 +11,7 @@ class App extends React.Component {
       <div>
         <p>Social Boost </p>
         <AwesomeComponent />
+
       </div>
     );
   }

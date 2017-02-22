@@ -1,7 +1,7 @@
 import React from 'react';
 
-import PublishButton from './PublishButton';
-import SocialBoostItem from './SocialBoostItem';
+import PublishButton from './PublishButton.jsx';
+import SocialBoostItem from './SocialBoostItem.jsx';
 
 class SocialBoostContainer extends React.Component {
 
